@@ -5,3 +5,27 @@
 2025-12-19 20:29:35,462 - INFO - Scan complete. Vulnerable: 5, Scanned: 31, Time: 13.57s
 2025-12-19 20:44:38,907 - INFO - Starting scan of 31 domains with 20 threads
 2025-12-19 20:44:51,978 - INFO - Scan complete. Vulnerable: 5, Scanned: 31, Time: 13.07s
+2025-12-20 00:29:55,891 - INFO - Starting scan of 8 domains with 20 threads
+2025-12-20 00:30:04,478 - INFO - Scan complete. Vulnerable: 0, Scanned: 8, Time: 8.59s
+2025-12-20 00:30:23,012 - INFO - Starting scan of 8 domains with 20 threads
+2025-12-20 00:30:30,766 - INFO - Scan complete. Vulnerable: 0, Scanned: 8, Time: 7.75s
+2025-12-20 00:30:41,902 - INFO - Starting scan of 31 domains with 20 threads
+2025-12-20 00:30:54,256 - INFO - Scan complete. Vulnerable: 5, Scanned: 31, Time: 12.35s
+2025-12-20 00:36:49,604 - INFO - Starting scan of 31 domains with 20 threads
+2025-12-20 00:37:03,201 - INFO - Scan complete. Vulnerable: 5, Scanned: 31, Time: 13.6s
+2025-12-20 00:37:03,203 - INFO - Results saved to: hasil.json
+2025-12-20 00:47:18,423 - INFO - Starting scan of 31 domains with 20 threads
+2025-12-20 00:47:35,553 - INFO - Scan complete. Vulnerable: 2, Scanned: 31, Time: 17.13s
+2025-12-20 00:49:17,332 - INFO - Starting scan of 31 domains with 20 threads
+2025-12-20 00:49:33,682 - INFO - Scan complete. Vulnerable: 2, Scanned: 31, Time: 16.35s
+2025-12-20 00:52:42,408 - ERROR - File 'domains.txt' not found.
+2025-12-20 00:52:52,493 - INFO - Starting scan of 31 domains with 20 threads
+2025-12-20 00:53:08,475 - INFO - Scan complete. Vulnerable: 0, Scanned: 31, Time: 15.98s
+2025-12-20 01:04:45,639 - INFO - Starting scan of 1 domains with 20 threads
+2025-12-20 01:04:46,164 - INFO - Scan complete. Vulnerable: 0, Scanned: 1, Time: 0.52s
+2025-12-20 01:05:08,127 - INFO - Starting scan of 1 domains with 20 threads
+2025-12-20 01:05:10,981 - INFO - Scan complete. Vulnerable: 0, Scanned: 1, Time: 2.85s
+2025-12-20 01:05:27,944 - INFO - Starting scan of 1 domains with 20 threads
+2025-12-20 01:05:30,151 - INFO - Scan complete. Vulnerable: 0, Scanned: 1, Time: 2.21s
+2025-12-20 01:06:54,978 - INFO - Starting scan of 1 domains with 20 threads
+2025-12-20 01:06:55,925 - INFO - Scan complete. Vulnerable: 0, Scanned: 1, Time: 0.95s

@@ -1,0 +1,279 @@
+{
+  "scan_timestamp": "2025-12-20 00:37:03",
+  "total_scanned": 31,
+  "vulnerable_count": 5,
+  "results": [
+    {
+      "domain": "https://ppid.tvri.go.id",
+      "vulnerable": true,
+      "service": "NETLIFY",
+      "cname": "",
+      "status": 468,
+      "url": "https://ppid.tvri.go.id",
+      "confidence": 3,
+      "response_preview": "<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"icon\" href=\"/.safeline/static/favicon.png\" type=\"image/png\"><title id=\"slg-title\"></title><style>:root{--primary-color:#",
+      "poc_evidence": {
+        "timestamp": "2025-12-20T00:36:55.821887",
+        "target": "https://ppid.tvri.go.id",
+        "service": "NETLIFY",
+        "vulnerability_type": "Subdomain Takeover",
+        "cve": "N/A",
+        "attack_vector": "Subdomain takeover via DNS misconfiguration",
+        "proof_of_concept": [
+          "1. Target: https://ppid.tvri.go.id",
+          "2. Service: NETLIFY",
+          "3. CNAME: ",
+          "4. Response Status: 468",
+          "5. Vulnerable: Subdomain takeover possible",
+          "6. Impact: Full domain control takeover"
+        ],
+        "impact": "CRITICAL - Full system/database control possible",
+        "recommendation": [
+          "Remove or update DNS CNAME records pointing to deprovisioned services",
+          "Implement proper domain ownership verification",
+          "Regular monitoring of subdomain configurations"
+        ]
+      }
+    },
+    {
+      "domain": "https://jdih.tvri.go.id",
+      "vulnerable": true,
+      "service": "NETLIFY",
+      "cname": "",
+      "status": 468,
+      "url": "https://jdih.tvri.go.id",
+      "confidence": 3,
+      "response_preview": "<!doctype html><html><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"icon\" href=\"/.safeline/static/favicon.png\" type=\"image/png\"><title id=\"slg-title\"></title><style>:root{--primary-color:#",
+      "poc_evidence": {
+        "timestamp": "2025-12-20T00:36:55.824911",
+        "target": "https://jdih.tvri.go.id",
+        "service": "NETLIFY",
+        "vulnerability_type": "Subdomain Takeover",
+        "cve": "N/A",
+        "attack_vector": "Subdomain takeover via DNS misconfiguration",
+        "proof_of_concept": [
+          "1. Target: https://jdih.tvri.go.id",
+          "2. Service: NETLIFY",
+          "3. CNAME: ",
+          "4. Response Status: 468",
+          "5. Vulnerable: Subdomain takeover possible",
+          "6. Impact: Full domain control takeover"
+        ],
+        "impact": "CRITICAL - Full system/database control possible",
+        "recommendation": [
+          "Remove or update DNS CNAME records pointing to deprovisioned services",
+          "Implement proper domain ownership verification",
+          "Regular monitoring of subdomain configurations"
+        ]
+      }
+    },
+    {
+      "domain": "https://api.citizenjournalism.tvri.go.id",
+      "vulnerable": true,
+      "service": "NETLIFY",
+      "cname": "",
+      "status": 404,
+      "url": "https://api.citizenjournalism.tvri.go.id",
+      "confidence": 5,
+      "response_preview": "404 page not found",
+      "poc_evidence": {
+        "timestamp": "2025-12-20T00:36:55.850833",
+        "target": "https://api.citizenjournalism.tvri.go.id",
+        "service": "NETLIFY",
+        "vulnerability_type": "Subdomain Takeover",
+        "cve": "N/A",
+        "attack_vector": "Subdomain takeover via DNS misconfiguration",
+        "proof_of_concept": [
+          "1. Target: https://api.citizenjournalism.tvri.go.id",
+          "2. Service: NETLIFY",
+          "3. CNAME: ",
+          "4. Response Status: 404",
+          "5. Vulnerable: Subdomain takeover possible",
+          "6. Impact: Full domain control takeover"
+        ],
+        "impact": "CRITICAL - Full system/database control possible",
+        "recommendation": [
+          "Remove or update DNS CNAME records pointing to deprovisioned services",
+          "Implement proper domain ownership verification",
+          "Regular monitoring of subdomain configurations"
+        ]
+      }
+    },
+    {
+      "domain": "https://superapps.tvri.go.id",
+      "vulnerable": true,
+      "service": "NETLIFY",
+      "cname": "",
+      "status": 404,
+      "url": "https://superapps.tvri.go.id",
+      "confidence": 5,
+      "response_preview": "{\"detail\":\"not found\"}",
+      "poc_evidence": {
+        "timestamp": "2025-12-20T00:36:55.968969",
+        "target": "https://superapps.tvri.go.id",
+        "service": "NETLIFY",
+        "vulnerability_type": "Subdomain Takeover",
+        "cve": "N/A",
+        "attack_vector": "Subdomain takeover via DNS misconfiguration",
+        "proof_of_concept": [
+          "1. Target: https://superapps.tvri.go.id",
+          "2. Service: NETLIFY",
+          "3. CNAME: ",
+          "4. Response Status: 404",
+          "5. Vulnerable: Subdomain takeover possible",
+          "6. Impact: Full domain control takeover"
+        ],
+        "impact": "CRITICAL - Full system/database control possible",
+        "recommendation": [
+          "Remove or update DNS CNAME records pointing to deprovisioned services",
+          "Implement proper domain ownership verification",
+          "Regular monitoring of subdomain configurations"
+        ]
+      }
+    },
+    {
+      "domain": "https://api.ott.tvri.go.id",
+      "vulnerable": true,
+      "service": "NETLIFY",
+      "cname": "",
+      "status": 404,
+      "url": "https://api.ott.tvri.go.id",
+      "confidence": 5,
+      "response_preview": "{\"message\":\"object not found\"}",
+      "poc_evidence": {
+        "timestamp": "2025-12-20T00:36:56.248471",
+        "target": "https://api.ott.tvri.go.id",
+        "service": "NETLIFY",
+        "vulnerability_type": "Subdomain Takeover",
+        "cve": "N/A",
+        "attack_vector": "Subdomain takeover via DNS misconfiguration",
+        "proof_of_concept": [
+          "1. Target: https://api.ott.tvri.go.id",
+          "2. Service: NETLIFY",
+          "3. CNAME: ",
+          "4. Response Status: 404",
+          "5. Vulnerable: Subdomain takeover possible",
+          "6. Impact: Full domain control takeover"
+        ],
+        "impact": "CRITICAL - Full system/database control possible",
+        "recommendation": [
+          "Remove or update DNS CNAME records pointing to deprovisioned services",
+          "Implement proper domain ownership verification",
+          "Regular monitoring of subdomain configurations"
+        ]
+      }
+    }
+  ],
+  "poc_evidence": [
+    {
+      "timestamp": "2025-12-20T00:36:55.821887",
+      "target": "https://ppid.tvri.go.id",
+      "service": "NETLIFY",
+      "vulnerability_type": "Subdomain Takeover",
+      "cve": "N/A",
+      "attack_vector": "Subdomain takeover via DNS misconfiguration",
+      "proof_of_concept": [
+        "1. Target: https://ppid.tvri.go.id",
+        "2. Service: NETLIFY",
+        "3. CNAME: ",
+        "4. Response Status: 468",
+        "5. Vulnerable: Subdomain takeover possible",
+        "6. Impact: Full domain control takeover"
+      ],
+      "impact": "CRITICAL - Full system/database control possible",
+      "recommendation": [
+        "Remove or update DNS CNAME records pointing to deprovisioned services",
+        "Implement proper domain ownership verification",
+        "Regular monitoring of subdomain configurations"
+      ]
+    },
+    {
+      "timestamp": "2025-12-20T00:36:55.824911",
+      "target": "https://jdih.tvri.go.id",
+      "service": "NETLIFY",
+      "vulnerability_type": "Subdomain Takeover",
+      "cve": "N/A",
+      "attack_vector": "Subdomain takeover via DNS misconfiguration",
+      "proof_of_concept": [
+        "1. Target: https://jdih.tvri.go.id",
+        "2. Service: NETLIFY",
+        "3. CNAME: ",
+        "4. Response Status: 468",
+        "5. Vulnerable: Subdomain takeover possible",
+        "6. Impact: Full domain control takeover"
+      ],
+      "impact": "CRITICAL - Full system/database control possible",
+      "recommendation": [
+        "Remove or update DNS CNAME records pointing to deprovisioned services",
+        "Implement proper domain ownership verification",
+        "Regular monitoring of subdomain configurations"
+      ]
+    },
+    {
+      "timestamp": "2025-12-20T00:36:55.850833",
+      "target": "https://api.citizenjournalism.tvri.go.id",
+      "service": "NETLIFY",
+      "vulnerability_type": "Subdomain Takeover",
+      "cve": "N/A",
+      "attack_vector": "Subdomain takeover via DNS misconfiguration",
+      "proof_of_concept": [
+        "1. Target: https://api.citizenjournalism.tvri.go.id",
+        "2. Service: NETLIFY",
+        "3. CNAME: ",
+        "4. Response Status: 404",
+        "5. Vulnerable: Subdomain takeover possible",
+        "6. Impact: Full domain control takeover"
+      ],
+      "impact": "CRITICAL - Full system/database control possible",
+      "recommendation": [
+        "Remove or update DNS CNAME records pointing to deprovisioned services",
+        "Implement proper domain ownership verification",
+        "Regular monitoring of subdomain configurations"
+      ]
+    },
+    {
+      "timestamp": "2025-12-20T00:36:55.968969",
+      "target": "https://superapps.tvri.go.id",
+      "service": "NETLIFY",
+      "vulnerability_type": "Subdomain Takeover",
+      "cve": "N/A",
+      "attack_vector": "Subdomain takeover via DNS misconfiguration",
+      "proof_of_concept": [
+        "1. Target: https://superapps.tvri.go.id",
+        "2. Service: NETLIFY",
+        "3. CNAME: ",
+        "4. Response Status: 404",
+        "5. Vulnerable: Subdomain takeover possible",
+        "6. Impact: Full domain control takeover"
+      ],
+      "impact": "CRITICAL - Full system/database control possible",
+      "recommendation": [
+        "Remove or update DNS CNAME records pointing to deprovisioned services",
+        "Implement proper domain ownership verification",
+        "Regular monitoring of subdomain configurations"
+      ]
+    },
+    {
+      "timestamp": "2025-12-20T00:36:56.248471",
+      "target": "https://api.ott.tvri.go.id",
+      "service": "NETLIFY",
+      "vulnerability_type": "Subdomain Takeover",
+      "cve": "N/A",
+      "attack_vector": "Subdomain takeover via DNS misconfiguration",
+      "proof_of_concept": [
+        "1. Target: https://api.ott.tvri.go.id",
+        "2. Service: NETLIFY",
+        "3. CNAME: ",
+        "4. Response Status: 404",
+        "5. Vulnerable: Subdomain takeover possible",
+        "6. Impact: Full domain control takeover"
+      ],
+      "impact": "CRITICAL - Full system/database control possible",
+      "recommendation": [
+        "Remove or update DNS CNAME records pointing to deprovisioned services",
+        "Implement proper domain ownership verification",
+        "Regular monitoring of subdomain configurations"
+      ]
+    }
+  ]
+}
