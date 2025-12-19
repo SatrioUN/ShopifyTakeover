@@ -1,0 +1,7 @@
+2025-12-19 20:19:46,232 - INFO - Starting scan of 38 domains with 20 threads
+2025-12-19 20:27:19,376 - INFO - Starting scan of 38 domains with 20 threads
+2025-12-19 20:27:41,414 - INFO - Scan complete. Vulnerable: 8, Scanned: 38, Time: 22.04s
+2025-12-19 20:29:21,894 - INFO - Starting scan of 31 domains with 20 threads
+2025-12-19 20:29:35,462 - INFO - Scan complete. Vulnerable: 5, Scanned: 31, Time: 13.57s
+2025-12-19 20:44:38,907 - INFO - Starting scan of 31 domains with 20 threads
+2025-12-19 20:44:51,978 - INFO - Scan complete. Vulnerable: 5, Scanned: 31, Time: 13.07s

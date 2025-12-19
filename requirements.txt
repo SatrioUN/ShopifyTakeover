@@ -1,3 +1,5 @@
-beautifulsoup4==4.11.1
-requests==2.25.1
-urllib3==1.26.4
+requests>=2.28.1
+beautifulsoup4>=4.11.1
+dnspython>=2.2.1
+tldextract>=3.3.1
+urllib3>=1.26.12
